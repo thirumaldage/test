@@ -19,4 +19,5 @@ steps:
       
       Write-Host $(Build.SourcesDirectory) 
       Write-Host $(Agent.BuildDirectory)
+      Write-Host $(System.DefaultWorkingDirectory) 
     

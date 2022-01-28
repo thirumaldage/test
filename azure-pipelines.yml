@@ -19,5 +19,5 @@ steps:
       Get-ChildItem -Path $(Build.SourcesDirectory) -recurse
       Write-Host $(Build.SourcesDirectory) 
       Write-Host $(Agent.BuildDirectory)
-      Write-Host $(System.DefaultWorkingDirectory) 
+      Get-ChildItem -Path Write-Host $(System.DefaultWorkingDirectory) -recurse
     
